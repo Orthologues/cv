@@ -1,0 +1,53 @@
+body {
+  background-image: url("../img/jp_theme_1.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+hr {
+  height: 0;
+  width: 85%;
+  border-color: #f5f1da;
+  border-style: none;
+  border-width: 8px;
+  border-bottom-style: dashed;
+}
+
+h1 {
+  color: #900d0d;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+h2 {
+  background-color: inherit;
+  color: #d3de32;
+  margin-left: 7.5%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+h3 {
+  color: #900d0d;
+  margin-left: 5%
+}
+
+p {
+  margin-left: 5%;
+}
+
+table {
+  margin-left: 10%;
+}
+
+ul {
+  margin-left: 5%;
+}
+
+.LUBio {
+  margin-left: 15%;
+}
+
+.LUBio:hover{
+  margin-left: 20%;
+}
