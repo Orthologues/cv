@@ -1,53 +1,257 @@
+a {
+  color: black;
+}
+
 body {
-  background-image: url("../img/jp_theme_1.jpg");
-  width: 100%;
-  height: 100%;
+  border: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+h2{
+  font-size: 16px;
+  font-size: 2.8vw;
+}
+
+h3{
+  font-size: 16px;
+  font-size: 1.8vw;
 }
 
 hr {
   height: 0;
   width: 85%;
-  border-color: #f5f1da;
+  border-color: #59405c;
   border-style: none;
-  border-width: 8px;
-  border-bottom-style: dashed;
-}
-
-h1 {
-  color: #900d0d;
+  border-width: 4px;
+  border-top-style: dotted;
   margin-top: 3%;
-  margin-left: 3%;
+  margin-bottom: 4%;
+  position: relative;
 }
 
-h2 {
-  background-color: inherit;
-  color: #d3de32;
-  margin-left: 7.5%;
+li {
+  margin: auto 10%;
+}
+
+img {
+  outline: 0;
+}
+
+.bottomcloud {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  right: 20%;
+}
+
+.bottombox{
+  padding: 0;
+  outline: 0;
+}
+
+.bottom-container {
+  background-color: #dd2c00;
+  font-family: 'Marko One', serif;
+  margin-top: 2%;
+  margin-bottom: 0;
+  padding: 3% 0;
+  position: relative;
+}
+
+.btn {
+  background: #3D94F6;
+  background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 2.5vw;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 13px;
+  box-shadow: 1px 1px 5px 0px #000000;
+  -webkit-box-shadow: 1px 1px 5px 0px #000000;
+  -moz-box-shadow: 1px 1px 5px 0px #000000;
+  text-shadow: 1px 1px 10px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #FFFB00 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #B6CCE5);
+  background-image: -moz-linear-gradient(top, #1E62D0, #B6CCE5);
+  background-image: -ms-linear-gradient(top, #1E62D0, #B6CCE5);
+  background-image: -o-linear-gradient(top, #1E62D0, #B6CCE5);
+  background-image: linear-gradient(to bottom, #1E62D0, #B6CCE5);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFB00;
+  text-decoration: none;
+}
+
+.edutime {
+  font-size: 16px;
+  font-size: 1.6vw;
+  text-align: left;
+}
+
+.email-img {
+  position: relative;
+  width: 10%;
+  height: 10%;
+  margin: 3% auto;
+}
+
+.footer-img {
+  width: 3.5%;
+  height: 3.5%;
+  margin: 0% 3%;
+  position: relative;
+}
+
+.footer-img:hover {
+  width: 5%;
+}
+
+.it-skill {
+  display: inline-block;
+  line-height: 2;
+  margin: auto 3% auto 7%;
+  padding: 0 auto;
+  width: 40%;
+}
+
+.language-skill {
+  display: inline-block;
+  font-size: 16px;
+  font-size: 1.8vw;
+  float: right;
+  margin: auto 7% auto 3%;
+  line-height: 2;
+  padding-top: 0;
+  padding-bottom: 1.5%;
+  width: 40%;
+}
+
+.middle-container {
+  font-family: 'Marko One', serif;
   margin-top: 3%;
-  margin-bottom: 5%;
+  position: relative;
 }
 
-h3 {
-  color: #900d0d;
-  margin-left: 5%
+.mountain{
+  height: auto;
+  width: 80%;
 }
 
-p {
-  margin-left: 5%;
+.profile-image {
+  width: 12%;
+  height: 12%;
 }
 
-table {
-  margin-left: 10%;
+.skill-subtext {
+  color: #40514E;
+  font-size: 16px;
+  font-size: 1.8vw;
+  line-height: 2;
+  text-align: left;
 }
 
-ul {
-  margin-left: 5%;
+.stars {
+  display: inline-block;
+  float: right;
+  margin: auto 0 auto auto;
+  padding: 0;
+  width: 25%;
 }
 
-.LUBio {
-  margin-left: 15%;
+.subtext {
+  color: #40514E;
+  font-size: 16px;
+  font-size: 1.4vw;
+  line-height: 2;
 }
 
-.LUBio:hover{
-  margin-left: 20%;
+.terms {
+  display: inline-block;
+  margin: auto auto auto 0;
+  padding: 0;
+  width: 75%;
+}
+
+.top-container {
+  background-color: #b2ebf2;
+  padding-top: 3%;
+  padding-bottom: 0;
+}
+
+.upperbox {
+  text-align: center;
+  margin: 5% auto 3%;
+  padding: 0;
+}
+
+.uppercloud {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 6%;
+}
+
+.upperh1 {
+  color: #11999E;
+  font-family: 'Marko One', serif;
+  font-size: 16px;
+  font-size: 3vw;
+  /*  100 = viewport width, as 1vw = 1/100th of that
+      Here, the body is 150% of viewport, but the container is 50%
+      of viewport, so both parents factor  into how you want it to size.
+      Let's say you like 5vw if it were the whole width,
+      then for this container, size it at 3.75vw
+      (5 * 1.5 [i.e. 150%]) * .5 [i.e. 50%]
+  */
+  margin: 0 5%;
+}
+
+.upperh3 {
+  color: white;
+  font-size: 16px;
+  font-size: 3vw;
+  font-family: 'Marko One', serif;
+  font-weight: normal;
+  margin: 0 auto;
+    padding-bottom: 2%;
+}
+
+#disclaimer {
+  color: #f3f3f3;
+  font-weight: lighter;
+  font-size: 16px;
+  font-size: 1.2vw;
+}
+
+#my-skills {
+  margin-bottom: 0;
+}
+
+#upper-signature {
+  color: #3c2c3e;
+  display: inline-block;
+  font-size: 16px;
+  font-size: 10vw;
+  font-family: 'Allura', cursive;
+  margin: 0 auto;
 }

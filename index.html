@@ -2,167 +2,130 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta content="The personal page of Jiawei Zhao" charset="utf-8">
-  <title>Introduction</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style1.css">
   <link rel="icon" href="img/orthologues.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Marko+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+  <title>Jiawei Zhao</title>
 </head>
 
 <body>
-  <h1>Jiawei Zhao</h1>
-  <br>
-  <table cellspacing="20">
-    <tr>
-      <td>
-        <p>
-          <em>Master's student</em> in <em><strong><a href="https://www.lunduniversity.lu.se/lubas/i-uoh-lu-NABIF">bioinformatics</a></strong></em>
-        </p>
-        <p><strong>Department of Biology, Lund University</strong></p>
-        <img class="LUBio" src="img/bioDpm" alt="Sorry, this picture is unable to be loaded">
-        <p>Lund, Sweden</p>
-      </td>
-      <td>
-        <p><em>Main courses:</em></p>
-        <ol>
-          <li><strong>Bash</strong> and Programming in <strong>Python</strong></li>
-          <li>Modelling Biological Systems in <strong>R</strong></li>
-          <li>Processing and Analysis of Biological Data ub <strong>R</strong></li>
-          <li>Informatics of DNA-sequencing</li>
-        </ol>
-      </td>
-    </tr>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Orthologues' github page</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  </table>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#formeredu">My former education </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#my-skills">My skills </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#getintouch">Contact me <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="top-container">
+    <div class="upperbox">
+      <h1 id="upper-signature">I'm <em>Jiawei Zhao,</em></h1>
+      <h3 class="upperh3">a master's student</h3>
+      <h1 class="upperh1">in <em>Bioinformatics</em> at <em>Lund University</em></h1>
+    </div>
+    <a href="sub-html/blog.html" class="btn">My personal blog</a>
+    <div class="bottombox">
+      <img class="uppercloud" src="img/cloud.png" alt="clour-pic">
+      <img class="bottomcloud" src="img/cloud.png" alt="clour-pic">
+      <img class="mountain" src="img/mountain.png" alt="mountain-pic">
+    </div>
+  </div>
 
-  <hr>
-  <h3>Former education</h3>
-  <ul>
-    <li><strong>Sep 2015 ~ June 2019</strong>
-      <table>
-        <tr>
-          <td><em>B.Eng</em> in <strong>Biomedical Engineering</strong></td>
-          <td> at Huazhong University of Science and Technology</td>
-        </tr>
-      </table>
-    </li>
-    <br>
-    <li><strong>Feb 2017 ~ Dec 2018</strong>
-      <table>
-        <tr>
-          <td><em>Minor</em> in <strong>Computer Science</strong></td>
-          <td> at Wuhan University</td>
-        </tr>
-      </table>
-    </li>
-  </ul>
-  <hr>
-  <h3>About me</h3>
-  <ul>
-    <li><strong>Contact me by e-mail:</strong>
-      <table cellspacing=10>
-        <thead>
-          <tr>
-            <td><strong>Type</strong></td>
-            <td><strong>Address</strong></td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Student e-mail</td>
-            <td>ji8842zh-s@student.lu.se</td>
-          </tr>
-          <tr>
-            <td>Personal e-mail</td>
-            <td>kitahara1869@163.com</td>
-          </tr>
-        </tbody>
-        <tfoot>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-image" src="https://image.flaticon.com/icons/svg/3220/3220390.svg" alt="profile-image">
+      <h2 id="formeredu">Former education</h2>
+      <ul>
+        <li>
+          <div class="edutime"><strong>Sep 2015 ~ June 2019</strong></div>
+          <p class="subtext"><em>B.Eng</em> in <strong>Biomedical Engineering </strong>at Huazhong University of Science and Technology</p>
+        </li>
+        <br>
+        <li>
+          <div class="edutime"><strong>Feb 2017 ~ Dec 2018</strong></div>
+          <p class="subtext"><em>Minor</em> in <strong>Computer Science </strong>at Wuhan University</p>
+        </li>
+      </ul>
+    </div>
+    <hr>
+    <h2 id="my-skills">My Skills.</h2>
+    <div class="language-skill">
+      <h3>My language proficiency</h3>
+      <div class="skill-subtext">
+        <div class="terms">
+          <p>English</p>
+          <p>Japanese</p>
+          <p>Mandarin</p>
+          <p>Cantonese</p>
+          <p>Swedish</p>
+        </div>
+        <div class="stars">
+          <p>⭐️⭐️⭐️⭐️</p>
+          <p>⭐️⭐️⭐️</p>
+          <p>⭐️⭐️⭐️⭐️⭐️</p>
+          <p>⭐️⭐️⭐️⭐️⭐️</p>
+          <p>⭐️</p>
+        </div>
+      </div>
+    </div>
+    <div class="it-skill">
+      <h3>My IT skills</h3>
+      <div class="skill-subtext">
+        <div class="terms">
+          <p>Bash & Linux</p>
+          <p>MySQL</p>
+          <p>html5 & css</p>
+          <p>Python3</p>
+          <p>Bioinformatics pipeline</p>
+          <p>Statistical analysis in R</p>
+          <p>Android development in Java</p>
+        </div>
+        <div class="stars">
+          <p>⭐️⭐️⭐️⭐️</p>
+          <p>⭐️⭐️⭐️⭐️</p>
+          <p>⭐️⭐️⭐️⭐️</p>
+          <p>⭐️⭐️⭐️</p>
+          <p>⭐️⭐️⭐️</p>
+          <p>⭐️⭐️⭐️</p>
+          <p>⭐️</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2 id="getintouch">Get In Touch</h2>
+      <h3>E-mail</h3>
+      <p class="subtext">Click the following .gif to see my student e-mail address</p>
+      <a class="email" href="mailto:ji8842zh-s@student.lu.se"><img class="email-img" src="https://media.giphy.com/media/FcSNVseHOTJbq/giphy.gif" alt="Contact me"></a>
+    </div>
+  </div>
 
-        </tfoot>
-      </table>
-    </li>
-    <br>
-    <li><strong>My personal skills</strong>
-      <table cellspacing=30>
-        <tr>
-          <td>
-            <table cellspacing="20">
-              <thead>
-                <tr>
-                  <td><strong>Language</strong></td>
-                  <td><strong>Proficiency</strong></td>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>English</td>
-                  <td>⭐️⭐️⭐️⭐️</td>
-                </tr>
-                <tr>
-                  <td>Mandarin</td>
-                  <td>⭐️⭐️⭐️⭐️⭐️</td>
-                </tr>
-                <tr>
-                  <td>Japanese</td>
-                  <td>⭐️⭐️⭐️</td>
-                </tr>
-                <tr>
-                  <td>Cantonese</td>
-                  <td>⭐️⭐️⭐️⭐️⭐️</td>
-                </tr>
-                <tr>
-                  <td>Swedish</td>
-                  <td>⭐️</td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-          <td>
-            <table cellspacing="20">
-              <thead>
-                <tr>
-                  <td><strong>IT & Academic skills</strong></td>
-                  <td><strong>Proficiency</strong></td>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Bash & Linux</td>
-                  <td>⭐️⭐️⭐️⭐️</td>
-                </tr>
-                <tr>
-                  <td>Python</td>
-                  <td>⭐️⭐️⭐️</td>
-                </tr>
-                <tr>
-                  <td>Statistical analysis in R</td>
-                  <td>⭐️⭐️⭐️⭐️</td>
-                </tr>
-                <tr>
-                  <td>Bioinformatics pipelines in Snakemake</td>
-                  <td>⭐️⭐️</td>
-                </tr>
-                <tr>
-                  <td>html & xml & css</td>
-                  <td>⭐️⭐️⭐️⭐️</td>
-                </tr>
-                <tr>
-                  <td>SQL</td>
-                  <td>⭐️⭐️⭐️⭐️⭐️</td>
-                </tr>
-                <tr>
-                  <td>Android development in Java</td>
-                  <td>⭐️</td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </table>
-    </li>
-  </ul>
-  <hr>
-  <h2><em><a href="sub-html/blog.html">My personal blog</a></em></h2>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/jiawei-zhao-5268681b0/"><img class="footer-img" src="https://www.flaticon.com/premium-icon/icons/svg/3015/3015805.svg" alt="LinkedIn"></a>
+    <a class="footer-link" href="https://twitter.com/"><img class="footer-img" src="https://image.flaticon.com/icons/svg/733/733579.svg" alt="Twitter"></a>
+    <a class="footer-link" href="https://github.com/Orthologues/"><img class="footer-img" src="https://www.flaticon.com/premium-icon/icons/svg/2175/2175377.svg" alt="Github"></a>
+    <p id="disclaimer">© 2020 Jiawei Zhao.</p>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
 </body>
 
 </html>
