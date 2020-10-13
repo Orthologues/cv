@@ -42,7 +42,7 @@ img {
   width: 10%;
   height: auto;
   position: absolute;
-  right: 20%;
+  right: 10%;
 }
 
 .bottombox{
@@ -73,7 +73,7 @@ img {
   font-family: Open Sans;
   font-size: 2.5vw;
   font-weight: bold;
-  margin: 0 auto;
+  margin: 0 20px;
   padding: 13px;
   box-shadow: 1px 1px 5px 0px #000000;
   -webkit-box-shadow: 1px 1px 5px 0px #000000;

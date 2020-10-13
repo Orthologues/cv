@@ -1,0 +1,128 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+.return-div{
+  text-align: left;
+}
+
+.return-btn {
+  background: #3D94F6;
+  background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 2.5vw;
+  font-weight: bold;
+  margin: 30px auto 0px 30px;
+  padding: 10px;
+  box-shadow: 1px 1px 5px 0px #000000;
+  -webkit-box-shadow: 1px 1px 5px 0px #000000;
+  -moz-box-shadow: 1px 1px 5px 0px #000000;
+  text-shadow: 1px 1px 10px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.main-container{
+  height: 800px;
+}
+
+.btn-container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+/* when game starts, add this class to the btn-container above */
+.game-started {
+  display: inline-block;
+  text-align: left;
+}
+
+/* when game starts, add the following 4 divs to display game and user patterns  */
+.pattern-container {
+  display: inline-block;
+  float: right;
+  margin-right: 50px;
+  width: 30%;
+  color: #ADD8E6;
+  visibility: hidden;
+}
+
+.pattern{
+  width: 30%;
+  display: inline-block;
+  margin: auto;
+}
+
+.game{
+  margin-right: 40px;
+  text-align: left;
+}
+
+.user-clicked{
+  margin-right: 40px;
+}
+
+/* use this buttons of this class to record patterns */
+.ptn-btn{
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+  border: 2px solid black;
+  border-radius: 20%;
+}
+
+/* add this class to main-container when "gameover" */
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
